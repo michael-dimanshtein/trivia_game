@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link href='style.css'  type='text/css' rel='stylesheet'>
+
+	
+</head>
+<body>
+
+	<div class="container">
+		<div class = "jumbotron">
+
+			<p>
+  				<button type="button" class="btn btn-primary btn-lg" id='startBtn'>Start Quiz</button>
+  			</p>
+			
+			<div class="question hide" id="quest">
+			Question
+			</div>
+
+			<div class="answersSelect hide" id= "answerOpt">
+
+				<div class="radio" id ="radio0">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios0" value="0">
+				    <span id="ans0">0</span>
+				  </label>
+				</div>
+
+				<div class="radio" id ="radio1">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios1" value="1">
+				    <span id="ans1">1</span>
+				  </label>
+				</div>
+
+				<div class="radio" id ="radio3">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios2" value="2">
+				    <span id="ans2">2</span>
+				  </label>
+				</div>
+
+				<div class="radio" id ="radio3">
+				  <label>
+				    <input type="radio" name="optionsRadios" id="optionsRadios3" value="3">
+				    <span id="ans3">3</span>
+				  </label>
+				</div>
+				
+				<div class="next hide" id="nextBtn">
+
+					<p>
+ 					 	<button type="button" class="btn btn-primary btn-sm">Next question</button>
+ 					</p>
+ 				</div>
+
+
+			</div> 
+
+
+
+		</div> <!-- jumbotron -->
+	
+
+
+
+
+
+	</div>
+
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+  <script src = ./script.js></script>
+</body>
+</html>
